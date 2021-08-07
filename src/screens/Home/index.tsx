@@ -100,7 +100,7 @@ export function Home() {
   useEffect(() => {
     getTopGames();
     getUserFollowedStreams();
-  }, [])
+  })
 
   return (
     <Container
